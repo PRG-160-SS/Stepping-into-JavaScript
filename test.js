@@ -12,7 +12,7 @@ if (myAge > 30) {
 } else if (myAge > 10) {
 
 	document.write("You are over 10");
-} else if (myAge < 10) {
+} else (myAge < 10) {
 
 	document.write("You are under 10");
 }
