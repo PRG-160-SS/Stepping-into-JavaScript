@@ -1,3 +1,12 @@
 // JavaScript Document
 
-alert("Hello, world!");
+var youLikeMeat = true;
+
+if (youLikeMeat){
+	
+	document.write("You like meat");
+	
+} else{
+	
+		document.write("You hate meat");		   
+	}
