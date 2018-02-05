@@ -1,7 +1,7 @@
-var links = document.getElementsByTagName("a");
+var Links = document.getElementsByTagName("a");
 
 
-for (i = 5; i < links.length; i++) {
+for (i = 1; i < links.length; i++) {
 	console.log("This is link number " + i);
 }
 
