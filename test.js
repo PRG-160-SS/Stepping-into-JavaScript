@@ -1,13 +1,5 @@
-function tester(a){
+var str = "This is for my challenge assignment.";
+var res = str.split(" ");
 	
-	if(a > 1 && a < 10){
-		return true;
-	} 
-	else{
-		return false;
-	}
-	
-}
-
-console.log(tester(5));
-
+console.log(res);
+  
