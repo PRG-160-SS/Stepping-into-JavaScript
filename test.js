@@ -1,30 +1,14 @@
-function primeCheck(p){
-
-	if(p===1){
-		return false;
-	}
-	else if(p===2){
-		return true;
-	}
-	else{
-		for(var a = 2; a < p ; a++){
-			if(p % a === 0){
-				return false;
-			}
-			
-		}
-		return true;	
-	}
+function ageLimit(d){
 	
+	if( d < 1997 ){
+		return "You are above the drinking age limit";
+	} 
+	else{
+		return "You are too young to drink alcohol";
+	}
 	
 }
 
-console.log("The number is a prime: true/false: " + primeCheck(19));
-
-
-
-
-
-
-
+console.log(ageLimit(1987));
+document.write(ageLimit(1987));
 
