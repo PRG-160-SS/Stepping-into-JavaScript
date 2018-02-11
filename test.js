@@ -1,10 +1,13 @@
-function count(a){
+function tester(a){
 	
-	for(var i = 1; i <= a; i++){
-	console.log("You are on number: " + i);
+	if(a > 1 && a < 10){
+		return true;
+	} 
+	else{
+		return false;
 	}
 	
 }
 
-console.log(count(10));
+console.log(tester(5));
 
