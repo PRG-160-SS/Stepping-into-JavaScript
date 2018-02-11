@@ -1,40 +1,18 @@
-function getAverage (a,b,c,d,e){
+var average = 0;
+
+function getAverage (a,b){
 	
-	var average = (a + b + c + d + e) / 5;
+	average = (a + b) / 2;
 	return(average);
 	
 }
 
-var myResult = getAverage(7,8,9,10,11);
-console.log("The average is " + myResult);
+var myResult = getAverage(7,11);
 
-
-function getDifference (m,n){
+function logResults(){
 	
-	var difference = (m - n);
-	return(difference);
-	
-}
-
-var diffResults = getDifference(25,10);
-console.log("The difference is " + diffResults);
-
-
-function myName (t,s) {
-
-	var name = (t + s);
-	return(name);
+	console.log("The average is " + myResult + " inside the function");
 
 }
 
-var nameResult = myName('Savannah',' Swartzel');
-console.log("My name is " + nameResult);
-
-
-
-
-
-
-
-
-
+logResults();
