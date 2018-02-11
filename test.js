@@ -1,18 +1,30 @@
-var average = 0;
+function primeCheck(p){
 
-function getAverage (a,b){
+	if(p===1){
+		return false;
+	}
+	else if(p===2){
+		return true;
+	}
+	else{
+		for(var a = 2; a < p ; a++){
+			if(p % a === 0){
+				return false;
+			}
+			
+		}
+		return true;	
+	}
 	
-	average = (a + b) / 2;
-	return(average);
 	
 }
 
-var myResult = getAverage(7,11);
+console.log("The number is a prime: true/false: " + primeCheck(19));
 
-function logResults(){
-	
-	console.log("The average is " + myResult + " inside the function");
 
-}
 
-logResults();
+
+
+
+
+
