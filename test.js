@@ -1,14 +1,10 @@
-function ageLimit(d){
+function count(a){
 	
-	if( d < 1997 ){
-		return "You are above the drinking age limit";
-	} 
-	else{
-		return "You are too young to drink alcohol";
+	for(var i = 1; i <= a; i++){
+	console.log("You are on number: " + i);
 	}
 	
 }
 
-console.log(ageLimit(1987));
-document.write(ageLimit(1987));
+console.log(count(10));
 
